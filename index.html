@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- lang attribute helps screen readers and search engines -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO meta tags -->
+  <title>Healthy Recipes - Easy and Tasty Meals</title>
+  <meta name="description" content="Simple healthy recipes for students. Learn quick and tasty meals you can cook at home.">
+  <meta name="keywords" content="healthy recipes, easy meals, student cooking">
+  <meta name="author" content="Abhishek Dhasmana">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph tags (used when the page is shared on social media) -->
+  <meta property="og:title" content="Healthy Recipes - Easy and Tasty Meals">
+  <meta property="og:description" content="Simple healthy recipes for students.">
+  <meta property="og:type" content="website">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header, main, footer { padding: 15px; }
+    nav a { margin-right: 15px; }
+    .skip { position: absolute; left: -999px; }
+    .skip:focus { left: 10px; top: 10px; }
+    img { max-width: 100%; height: auto; }
+    footer { background: #eee; color: #000; }
+  </style>
+</head>
+<body>
+
+  <!-- Skip link: lets keyboard users jump straight to the content -->
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header>
+    <h1>Healthy Recipes</h1>
+    <nav aria-label="Main menu">
+      <a href="#breakfast">Breakfast</a>
+      <a href="#lunch">Lunch</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section id="breakfast">
+      <h2>Breakfast Ideas</h2>
+      <article>
+        <h3>Oats with Fruits</h3>
+        <!-- alt text describes the image for screen readers and search engines -->
+        <img src="https://picsum.photos/600/300" alt="A bowl of oats topped with banana and berries" width="600" height="300">
+        <p>Cook oats in milk for 5 minutes and add chopped fruits on top.</p>
+      </article>
+    </section>
+
+    <section id="lunch">
+      <h2>Lunch Ideas</h2>
+      <article>
+        <h3>Vegetable Khichdi</h3>
+        <p>Cook rice, dal and vegetables together in one pot. Easy and filling.</p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>Tip of the Day</h2>
+      <p>Drink a glass of water before every meal.</p>
+    </aside>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <!-- label is linked to the input using for and id -->
+        <label for="email">Your email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Healthy Recipes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
